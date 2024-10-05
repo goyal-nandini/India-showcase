@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indian Heritage and Culture</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+      .carousel-inner > .carousel-item > img,
+      .carousel-inner > .item > a > img {
+        display: block;
+        max-width: 100%;
+        height: 900px !important;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- header -->
+    <section id="header" class="gradient-background">
+      <div class="container">
+        <header
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom"
+        >
+          <div class="col-md-3 mb-2 mb-md-0">
+            <a
+              href="/"
+              class="d-inline-flex link-body-emphasis text-decoration-none"
+            >
+              <!-- <svg class="bi" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg> -->
+              <img
+                src="./assets/logo3.gif"
+                height="100"
+                alt="Logo"
+                class="logo"
+              />
+            </a>
+          </div>
+
+          <ul
+            class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="#" class="nav-link px-2 link-dark fw-bold">Home</a>
+            </li>
+            <li>
+              <a href="#" class="nav-link px-2 link-dark fw-bold"
+                >Heritage Sites</a
+              >
+            </li>
+            <li>
+              <a href="#" class="nav-link px-2 link-dark fw-bold">Our Pride</a>
+            </li>
+            <!-- <li><a href="#" class="nav-link px-2 link-dark">Gallery</a></li> -->
+            <!-- <li>
+              <a href="#" class="nav-link px-2 link-dark fw-bold">Blog</a>
+            </li> -->
+            <!-- <li><a href="#" class="nav-link px-2">Travel With Us</a></li> -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle link-dark fw-bold"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blogs
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.culturalindia.net/indian-food/">Indian Food</a></li>
+                <li><a class="dropdown-item" href="https://www.treebo.com/blog/religious-festivals-of-india/">Indian Festivals</a></li>
+                <li><a class="dropdown-item" href="https://medium.com/@theunitedindian006/unity-in-diversity-in-india-c496910ef990#:~:text=India,%20often%20described%20as%20a%20land%20of%20%E2%80%9CUnity%20in%20Diversity,%E2%80%9D">Diversity</a></li>
+                <!-- <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li> -->
+              </ul>
+            </li>
+          </ul>
+
+          <!-- <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-primary me-2">Login</button>
+                <button type="button" class="btn btn-primary">Sign-up</button>
+              </div> -->
+        </header>
+      </div>
+    </section>
+
+    <!-- carousel for displaying our welcome to our webpage-->
+    <section id="carousel">
+      <div class="mt-0">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide mt-0"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active " data-bs-interval="1000">
+              <img
+                src="./assets/south indian temple.jpeg"
+                class="d-block w-100"
+                alt="temple"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>South India</h5>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Enim, repudiandae. Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Enim, repudiandae.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="./assets/lotus temple.jpeg"
+                class="d-block w-100"
+                alt="lotus temple"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>North India</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolore, aspernatur! Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Enim, repudiandae.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="./assets/Jaipur in India.jpeg"
+                class="d-block w-100"
+                alt="east india"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Beautiful Jaipur</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                  quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Enim, repudiandae.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+              <img
+                src="./assets/india gate.jpeg"
+                class="d-block w-100"
+                alt="india"
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Beautiful Jaipur</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                  quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Enim, repudiandae.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!--gallery/our pride  -->
+    <section id="cards">
+      <div class="container">
+        <h2 class="pb-2 border-bottom mt-5">Our Pride</h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 my-5">
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/hawa mehal.jpeg"
+                height="300"
+                class="card-img-top"
+                alt="hawa-mehal"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hawa Mehal</h5>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+                  sapiente recusandae doloremque.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/Taj Mahal, India.jpeg"
+                height="300"
+                class="card-img-top"
+                alt="taj-mehal"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Taj Mahal</h5>
+                <p class="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Dignissimos dolorum necessitatibus laudantium.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/kolkata.jpeg"
+                class="card-img-top"
+                height="300"
+                alt="kolkata"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Kolkata</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Explicabo nisi unde ipsum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/HOWRAH BRIDGE.jpeg"
+                class="card-img-top"
+                height="300"
+                alt="bridge"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Howrah Bridge</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+                  quibusdam inventore molestiae.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/handicraft.jpeg"
+                class="card-img-top"
+                height="300"
+                alt="handicrafts"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Indian Handicrafts</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Assumenda sapiente doloribus eum!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img
+                src="./assets/indian dance forms.jpeg"
+                class="card-img-top"
+                height="300"
+                alt="dance-forms"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Indian Dance Forms</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Maiores aliquam ducimus velit!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- features to add article/blogs links -->
+    <section id="features" class="gradient-background">
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Blogs</h2>
+
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('./assets/food\ indian.jpeg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  <a href="https://www.culturalindia.net/indian-food/">
+                    Cultural India : Indian Food</a
+                  >
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <!-- <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>Earth</small>
+              </li> -->
+                  <!-- <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>3d</small>
+              </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="
+                background-image: url('./assets/Unity\ in\ Diversity.jpeg');
+              "
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  <a
+                    href="https://medium.com/@theunitedindian006/unity-in-diversity-in-india-c496910ef990#:~:text=India,%20often%20described%20as%20a%20land%20of%20%E2%80%9CUnity%20in%20Diversity,%E2%80%9D"
+                  >
+                    The Unity of India in Diversity : Religions</a
+                  >
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <!-- <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>Pakistan</small>
+              </li> -->
+                  <!-- <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>4d</small>
+              </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div
+              class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+              style="background-image: url('./assets/Happy\ Diwali!.jpeg')"
+            >
+              <div
+                class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1"
+              >
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
+                  <a
+                    href="https://www.treebo.com/blog/religious-festivals-of-india/"
+                    >The Spectrum of National festivals of India</a
+                  >
+                </h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <!-- <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white"> -->
+                  </li>
+                  <!-- <li class="d-flex align-items-center me-3">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                <small>California</small>
+              </li> -->
+                  <!-- <li class="d-flex align-items-center">
+                <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                <small>5d</small>
+              </li> -->
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+      <div class="container-fluid">
+        <footer
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-5 my-5 py-0"
+        >
+        <div class="col mb-3"></div>
+
+          <div class="col mb-3 col-md-4 col-lg-3">
+            <a
+              href="http://127.0.0.1:3000/11.4%20MyProject/index.html#"
+              class="d-flex align-items-center mb-3 link-body-emphasis text-decoration-none"
+            >
+              <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg> -->
+              <!-- <p class="text-body-dark fw-bold">Travel With Us</p> -->
+              <img
+                src="./assets/India Overview.jpeg"
+                height="200" id="footer-img"
+                alt="india"
+              />
+            </a>
+            
+            <!-- <img src="./assets/India Overview.jpeg" alt="india">  -->
+          </div>
+
+          <!-- <div class="col mb-3"></div> -->
+          
+
+          <div class="col mb-3 text-dark">
+            <h4>Quick Links</h4>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-dark">Attractions
+                  </a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0 text-dark"
+                  >Experiences</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0  text-dark">Festivals and Events</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0  text-dark">FAQs</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="#" class="nav-link p-0  text-dark">Incredible India Content Hub</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col mb-3 text-dark">
+            <h4>Newsletter</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatibus voluptatem quas.
+            </p>
+            <button type="button" class="btn btn-outline-dark">Subscribe to our Newsletter</button>
+            
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+   <footer>
+    <div class="gradient-background" id="creater">
+      <p>Developed By Nandini  @2024</p>
+    </div>
+   </footer>
+      
+   
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
